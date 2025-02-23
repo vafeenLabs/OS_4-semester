@@ -6,9 +6,9 @@ mkdir -p /usr/lib/название
 mkdir -p /etc/фамилия
 
 # Перемещение файлов
-mv файл /opt/название/
-mv файл.lib /usr/lib/название/
-mv файл.conf /etc/фамилия/
+cp файл /opt/название/
+cp файл.lib /usr/lib/название/
+cp файл.conf /etc/фамилия/
 
 # Установка прав
 chmod +x /opt/название/файл
